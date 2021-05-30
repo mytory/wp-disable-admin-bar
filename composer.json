@@ -1,0 +1,25 @@
+{
+  "name": "mytory/wp-disable-admin-bar",
+  "description": "어드민 바를 없앤다.",
+  "keywords": [
+    "wordpress",
+    "admin-bar"
+  ],
+  "authors": [
+    {
+      "name": "An, Hyeong-woo",
+      "email": "mytory@gmail.com"
+    }
+  ],
+  "repositories": [
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mytory\\DisableAdminBar\\": "src/"
+    }
+  }
+}
